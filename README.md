@@ -11,12 +11,10 @@
 1. Clone repositori ini dengan menjalankan perintah berikut di terminal Anda:
 
 ```bash
-git clone https://github.com/username/repo.git
+git clone https://github.com/lanss-id/test-laravel.git
 ```
 
-Ganti https://github.com/username/repo.git dengan URL repositori Anda.
-
-Masuk ke direktori aplikasi dengan menjalankan perintah berikut di terminal Anda:
+2. Masuk ke direktori aplikasi dengan menjalankan perintah berikut di terminal Anda:
 
 ```bash
 cd nama-direktori-aplikasi
@@ -24,39 +22,39 @@ cd nama-direktori-aplikasi
 
 Ganti nama-direktori-aplikasi dengan nama direktori aplikasi Anda.
 
-Install dependensi PHP dengan Composer dengan menjalankan perintah berikut di terminal Anda:
+3. Install dependensi PHP dengan Composer dengan menjalankan perintah berikut di terminal Anda:
 ```bash
 composer install
 ```
 
-Install dependensi JavaScript dengan NPM dengan menjalankan perintah berikut di terminal Anda:
+4. Install dependensi JavaScript dengan NPM dengan menjalankan perintah berikut di terminal Anda:
 ```bash
 npm install
 ```
 
-Salin file .env.example menjadi .env dengan menjalankan perintah berikut di terminal Anda:
+5. Salin file .env.example menjadi .env dengan menjalankan perintah berikut di terminal Anda:
 ```bash
 cp .env.example .env
 ```
 
-Buat kunci aplikasi dengan perintah artisan dengan menjalankan perintah berikut di terminal Anda:
+6. Buat kunci aplikasi dengan perintah artisan dengan menjalankan perintah berikut di terminal Anda:
 ```bash
 php artisan key:generate
 ```
 
-Buat database dan atur koneksi database di file .env Anda.
+7. Buat database dan atur koneksi database di file .env Anda.
 
-Jalankan migrasi dan seeder database dengan menjalankan perintah berikut di terminal Anda:
+8. Jalankan migrasi dan seeder database dengan menjalankan perintah berikut di terminal Anda:
 ```bash
 php artisan migrate --seed
 ```
 
-Jalankan server pengembangan Laravel dengan menjalankan perintah berikut di terminal Anda:
+9. Jalankan server pengembangan Laravel dengan menjalankan perintah berikut di terminal Anda:
 ```bash
 php artisan serve
 ```
 
-Jalankan NPM untuk mengkompilasi aset dan menjalankan server hot-reload dengan menjalankan perintah berikut di terminal Anda:
+10. Jalankan NPM untuk mengkompilasi aset dan menjalankan server hot-reload dengan menjalankan perintah berikut di terminal Anda:
 ```bash
 npm run dev
 ```
